@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Asik4");
+        String first = "ABC";
+        String second = "AC";
+        int result = LCS.length(first, second);
+        System.out.println("LCS length: " + result);
     }
 }
